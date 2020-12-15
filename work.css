@@ -1,0 +1,364 @@
+html,
+body{
+    margin:0% 0%;
+    max-width: 100%;
+
+}
+
+.intro{
+    background-image:url("./photo-1505740420928-5e560c06d30e.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    /* max-width:100%; */
+    /* height:860px; */
+    height: 100vh;
+    padding:0px;
+    margin:0px;
+    /* border:1px solid yellow; */
+}
+
+.note{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    /* padding-left: 10rem; */
+}
+.fixed{
+    width: 50%;
+    text-align:left;
+    padding-left: 8rem;
+}
+.butt{
+    padding: 20px 60px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 40px; 
+    margin-top: 0.75rem; 
+    cursor: pointer;
+}
+
+.fixed button{
+    padding: 20px 60px;
+   font-size: 18px;
+   font-weight: bold;
+    border-radius: 40px;
+}
+.fixed button:focus{
+    outline: none;
+}
+.section-1{
+    padding:2% 10%;
+    font:16px tahoma;
+}
+.section-2{
+    background-color: rgb(255, 196, 0);
+    padding:1% 10%;
+    text-align: center;
+    font:17px tahoma;
+    color:white;
+}
+
+.section-3{
+    padding:2% 10%;
+    font:bold 16px tahoma;
+}
+
+.section-3 button{
+    font:10px tahoma; 
+    position: relative;
+    Left:15px;
+    top:70px;
+    padding:7px 14px;
+    background-color: rgb(255, 196, 0);
+    border-radius:15px;
+}
+
+.box{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+.section-3 .box-1{
+    max-width:450px;
+    height:300px;
+}
+
+.section-3 .box-2{
+    max-width:450px;
+    height:300px;
+}
+
+.section-3 .box-3{
+    max-width:450px;
+    height:300px;
+}
+
+.img{
+    padding-bottom:0px;
+}
+
+.img-text{
+    background-color:  rgb(255, 196, 0);
+    margin-top:0px;
+    height:100px;
+    position:relative;
+    bottom:25px;
+}
+
+.img-text p{
+    font:14px poppins;
+    color:white;
+    padding:3px 15px;
+    margin-bottom:0px;
+}
+
+.img-text h5{
+    padding:6px 15px;
+    margin-top:0px
+}
+
+.section-4{
+    margin:2% 10%;
+    font:bold 16px tahoma;
+}
+/* 
+.display-1{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+.display-2{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+*/
+
+.section-4 img{  
+    margin:15px 10px;
+}
+
+.section-5{
+    background-color: rgb(255, 196, 0);
+    padding:4% 25%;
+    margin-top:4%;
+    font:17px tahoma;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left p{
+    margin-top: 0px;
+    padding-top:0px;
+}
+
+.left h2{
+    padding-top:0px; 
+    margin-bottom:6px;  
+}
+
+.section-5 button{
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 40px; 
+    margin-top: 0.75rem; 
+    cursor: pointer;   
+}
+.section-5 button:focus{
+    outline: none;
+}
+
+.section-6{
+    padding:20px 250px;
+    font:16px tahoma;
+}
+
+.section-6 .up{
+    text-align:center;
+    padding:0px;
+}
+
+.section-6 .down{
+    float:left;
+    padding-right:15%;
+    text-align: center;
+}
+
+.down h1{
+    color:rgb(255, 196, 0);
+    font:bold 40px tahoma;
+}
+
+.down p{
+    position:relative;
+    bottom:63px;
+    font:bold 14px tahoma;
+}
+
+
+/* ******* MEDIA QUERIES ********** */
+
+/* ****** FOR TABLETS AND IPADS */
+
+@media only screen and (min-width: 280px) and (max-width: 767px){
+    .fixed button {
+        padding: 13px 36px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 40px;
+    }
+    .fixed {
+        padding-left: 1rem;
+    }
+    .fixed h1{
+        font-size:22px;
+    } 
+    .fixed p{
+        font-size:12px;
+    }  
+    .section-2{
+        font-size:12px;
+    } 
+    .section-3 h3{
+        font-size:19px;
+    }
+    .box{
+            width: 100%;
+            display: grid;       
+    }
+    .section-5{
+        padding: 10px 30px;
+        font-size:12px;
+    }
+    .section-5 button {
+        padding: 5px 25px;
+        font-size: 10px;
+    }
+    .section-6 {
+        padding: 5px 80px;
+    }
+    .section-6 .up{
+        font-size: 13px;
+    }
+    .down p{
+        font-size:12px;
+        position:relative;
+        bottom:45px;
+    }
+    .down h1{
+        font-size:30px;
+    }
+}
+
+/* ****** FOR dESKTOPS AND LAPTOPS */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .fixed{
+        padding-left: 2rem;
+        width: 100%;
+    }
+    .fixed p{
+        font-size:18px;
+    }
+    .fixed h1{
+        font-size:52px;
+    }
+    .butt{
+        padding: 9px 12px;
+        font-size: 10px;
+    }
+
+    .box{
+        display:grid;
+        max-width: 100%;
+        margin:20px 60px;
+    }
+    .section-3 h3{
+        margin:2% 8%;
+        font-weight:bold;
+        font-size:20px;
+        text-align:center;
+        padding:0px;
+    }
+    .section-1 h3{
+        font-size:25px;
+        font-weight:bold;
+        text-align:center;
+        margin:0px; 
+        padding:30px 0px;
+    }
+    .section-1{
+        padding:2% 8%;
+    }
+    .section-1 p{
+        margin:0px;
+    }
+    .section-4{
+        margin:3% 8%;
+        font:bold 20px tahoma;
+        text-align:center;
+    }
+    .section-5{
+        padding:20px 70px;
+        font:15px tahoma;
+    }
+
+    .section-6{
+        width:100%;
+        padding:20px 50px;
+        font:16px tahoma;
+        padding-left:2px;
+    }
+    
+    .section-6 .up{
+        text-align:center;
+        font-size:16px;
+        font-weight:bold;
+        position:relative;
+        right:80px;
+    }
+    
+    .section-6 .down{
+        float:left;
+        padding-right:15%;
+        text-align: center;
+        padding-left:9%;
+        position:relative;
+        left:80px;
+    }
+    .down h1{
+        font:bold 25px tahoma;
+    }
+    
+    .down p{
+        position:relative;
+        bottom:40px;
+        font:bold 12px tahoma;
+    }
+} 
+
+/* ****** FOR dESKTOPS AND LAPTOPS */
+
+@media only screen and (min-width: 1280px){
+    .section-3 {
+        padding: 2% 7%;
+    }
+    .section-4 {
+        margin: 2% 7%;
+    }
+    .section-5 {
+        padding: 4% 12%;
+    }
+    .section-6 .down {
+        padding-right: 12%;
+    }
+}    
+
+
